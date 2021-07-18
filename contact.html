@@ -13,7 +13,7 @@
     <body>
         <nav class="nav" data-aos="fade-down" data-aos-duration="700" data-aos-delay="0">
             <div class="nav__title">
-                <h2>Photosen</h2>
+                <h2><a href="index.html">Photosen</a></h2>
             </div>
             <div class="nav__links">
                 <ul class="nav__links-content">
@@ -35,8 +35,32 @@
         </div>
         <div class="content-contact" data-aos="fade-in">
             <div class="content-contact__form">
-                <form>
-                    <label>First Name</label>
+                <form class="form">
+                    <div class="form__name">
+                        <div class="form__content form__content-firstname">
+                            <label>First Name</label>
+                            <input class="form__content-input" type="text">
+                        </div>
+                        <div class="form__content">
+                            <label>Last Name</label>
+                            <input class="form__content-input" type="text">
+                        </div>
+                    </div>
+                    <div class="form__content">
+                        <label>Email</label>
+                        <input class="form__content-input" type="text">
+                    </div>
+                    <div class="form__content">
+                        <label>Subject</label>
+                        <input class="form__content-input" type="text">
+                    </div>
+                    <div class="form__content">
+                        <label>Message</label>
+                        <textarea class="form__content-input" type="text" placeholder="Write your notes or questions here..."></textarea>
+                    </div>
+                    <div class="form__content">
+                        <input class="form__content-btn" type="submit" value="Send Message">
+                    </div>
                 </form>
             </div>
             <div class="content-contact__info">
